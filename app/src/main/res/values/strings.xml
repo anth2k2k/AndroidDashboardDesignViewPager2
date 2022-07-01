@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AndroidDashboardDesignViewPager2</string>
+    <string name="resident_evil_the_final_chapter">Resident Evil - The Final Chapter</string>
+    <string name="science_fiction">Science Fiction</string>
+    <string name="december_16_2016">December 16, 2016</string>
+    <string name="search">Search</string>
+    <string name="recommend">Recommend</string>
+    <string name="view_all">View All</string>
 </resources>
