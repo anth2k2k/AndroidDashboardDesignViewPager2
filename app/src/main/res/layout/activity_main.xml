@@ -51,6 +51,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
+        android:id="@+id/linearLayoutSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_16sdp"
@@ -199,6 +200,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/textRecommend" />
 
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerMovies"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_marginBottom="@dimen/_24sdp"
+        android:paddingStart="@dimen/_50sdp"
+        android:paddingEnd="@dimen/_50sdp"
+        app:layout_constraintBottom_toTopOf="@id/textRecommend"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutSearch" />
 
     <me.ibrahimsn.lib.SmoothBottomBar
         android:id="@+id/smoothBottomBar"
